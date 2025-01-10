@@ -2,6 +2,11 @@ from telebot import TeleBot
 import buttons as bt
 from geopy import Photon
 import database as db
+
+
+
+
+
 admins_group = -4661054301
 geolocator = Photon(user_agent="geo_locator", timeout=10)
 # db.add_product("Бургер", 30000.00, "лучший бургер", 10, "https://www.gazeta.uz/media/img/2017/10/8NWCAY15072899796600_l.jpg")
